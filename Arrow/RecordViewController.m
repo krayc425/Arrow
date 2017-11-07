@@ -78,7 +78,7 @@
 //return rows of different sections:
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSInteger n;
+    NSInteger n = 0;
     switch (section) {
         case 0:
             n = [_classicRecord count];
